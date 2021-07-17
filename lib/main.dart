@@ -4,24 +4,56 @@ import 'package:skyline_template_app/core/services/navigation_service.dart';
 import 'package:skyline_template_app/core/utilities/router.dart' as router;
 import 'locator.dart';
 import 'package:flutter/widgets.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:dcdg/dcdg.dart';
 
 
 void main() async {
   await setupLocator();
   //runApp(MyApp());
-  runApp(MySkylineApp());
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(TimeBlockApp());
 }
 
-class MySkylineApp extends StatelessWidget {
+class TimeBlockApp extends StatelessWidget {
   // This widget is the root of your application.
+  final Future<FirebaseApp> _initialization = Firebase.initializeApp();
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      navigatorKey: locator<NavigationService>().navigationKey,
-      onGenerateRoute: (settings) => router.Router.generateRoute(context, settings),
-      home: HomeView(),
+    return FutureBuilder(
+      future: _initialization,
+      builder: (context, snapshot) {
+        if (snapshot.hasError) {
+          print('error');
+          return MaterialApp(
+              debugShowCheckedModeBanner: false,
+              navigatorKey: locator<NavigationService>().navigationKey,
+              onGenerateRoute: (settings) => router.Router.generateRoute(context, settings),
+              theme: ThemeData(fontFamily: 'InterReg'),
+              home: HomeView(),
+          );
+        }
+        if (snapshot.connectionState == ConnectionState.done) {
+          print('done');
+          return MaterialApp(
+              debugShowCheckedModeBanner: false,
+              navigatorKey: locator<NavigationService>().navigationKey,
+              onGenerateRoute: (settings) => router.Router.generateRoute(context, settings),
+              theme: ThemeData(fontFamily: 'InterReg'),
+              home: HomeView(),
+          );
+        }
+        return MaterialApp(
+          debugShowCheckedModeBanner: false,
+          navigatorKey: locator<NavigationService>().navigationKey,
+          onGenerateRoute: (settings) => router.Router.generateRoute(context, settings),
+          theme: ThemeData(fontFamily: 'InterReg'),
+          home: HomeView(),
+        );
+      }
     );
+
   }
 }
 
@@ -46,6 +78,7 @@ class MyApp extends StatelessWidget {
         // the app on. For desktop platforms, the controls will be smaller and
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
+        fontFamily: 'InterReg',
       ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );

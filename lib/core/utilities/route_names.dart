@@ -1,5 +1,7 @@
 const String HomeViewRoute = 'HomeView';
-const String TeacherViewRoute = 'TeacherView';
+const String AdminViewRoute = 'AdminView';
+const String TutorViewRoute = 'TutorView';
+const String RequestFormViewRoute = 'RequestFormView';
 
 
 

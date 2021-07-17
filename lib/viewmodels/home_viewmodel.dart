@@ -8,7 +8,6 @@ class HomeViewModel extends BaseViewModel {
   final  _navigationService = locator<NavigationService>();
 
   HomeViewModel() {
-    print("HomeViewModel Constructor Called()");
     setState(ViewState.Busy);
     try {
       _initMethod();
@@ -20,11 +19,15 @@ class HomeViewModel extends BaseViewModel {
     
     void _initMethod(){
       for (int i = 0; i < 2; i++) {
-        print("HomeViewModel Init() function called printing $i iteration of my for loop");
+        //print("HomeViewModel Init() function called printing $i iteration of my for loop");
       }
     }
 
-  void routeToTeacherView() {
-    _navigationService.navigateTo(TeacherViewRoute);
+  void routeToAdminView() {
+    _navigationService.navigateTo(AdminViewRoute);
+  }
+
+  void routeToTutorView() {
+    _navigationService.navigateTo(TutorViewRoute);
   }
 }

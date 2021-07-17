@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "306485655210",
+    "firebase_url": "https://timeblock-86c4f-default-rtdb.firebaseio.com",
+    "project_id": "timeblock-86c4f",
+    "storage_bucket": "timeblock-86c4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306485655210:android:c41bc1f4d2550b564b42d3",
+        "android_client_info": {
+          "package_name": "app.a4my.skyline_template_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306485655210-ghk8mi3mjkfonqlj2v5t5bt6t9g5eu49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2iZEdG5ekGtn3c5WFSHqifcNJkAc3Pz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306485655210-ghk8mi3mjkfonqlj2v5t5bt6t9g5eu49.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

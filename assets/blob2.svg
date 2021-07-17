@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="blob2.svg"
+   id="svg4"
+   version="1.1"
+   viewBox="0 0 200 200">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg4"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="100"
+     inkscape:cx="100"
+     inkscape:zoom="2.98"
+     showgrid="false"
+     id="namedview6"
+     inkscape:window-height="1002"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     style="stroke-width:1.57927"
+     id="path2"
+     d="m 201.02109,34.892609 c 7.75379,14.34284 -3.16482,50.75159 1.26592,73.290331 4.2725,22.53875 24.0526,31.20751 31.8064,44.44706 7.75379,13.23954 3.48129,30.89227 -7.59557,41.92523 -11.07685,10.87534 -29.27454,15.1309 -44.6239,13.86999 -15.34935,-1.10329 -28.00861,-7.56546 -41.30084,-6.46216 -13.29224,1.1033 -27.21743,9.77205 -47.94697,13.87001 -20.5713,4.25556 -47.78871,3.78272 -65.66992,-8.19591 C 9.0750008,195.65851 0.52999076,171.85887 6.5431408,151.68431 12.55629,131.50976 33.28584,114.80272 48.00223,97.307603 62.71862,79.812489 71.58011,61.529309 86.13826,50.969199 c 14.55815,-10.4025 34.81298,-13.08193 57.91614,-18.12557 23.26139,-5.04364 49.37113,-12.45148 56.96669,2.04898 z"
+     fill="#fce8ff" />
+</svg>

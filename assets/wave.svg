@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="wave.svg"
+   version="1.1"
+   viewBox="0 0 1440 490"
+   style="transform:rotate(180deg); transition: 0.3s"
+   id="wave">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="wave"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="245"
+     inkscape:cx="720"
+     inkscape:zoom="0.72847222"
+     showgrid="false"
+     id="namedview12"
+     inkscape:window-height="1002"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <defs
+     id="defs7">
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-3.7558118,0,0,-0.26625402,6912,490)"
+       y2="0"
+       y1="1840.3478"
+       x2="0"
+       x1="0"
+       id="sw-gradient-0">
+      <stop
+         id="stop2"
+         offset="0%"
+         stop-color="rgba(231, 198, 255, 1)" />
+      <stop
+         id="stop4"
+         offset="100%"
+         stop-color="rgba(231, 198, 255, 1)" />
+    </linearGradient>
+  </defs>
+  <path
+     id="path9"
+     d="m 6912,245 -48,40.8 C 6816,327 6720,408 6624,449.2 6528,490 6432,490 6336,449.2 6240,408 6144,327 6048,326.7 5952,327 5856,408 5760,392 5664,376 5568,261 5472,245 5376,229 5280,310 5184,302.2 5088,294 4992,196 4896,187.8 4800,180 4704,261 4608,269.5 4512,278 4416,212 4320,179.7 4224,147 4128,147 4032,138.8 3936,131 3840,114 3744,171.5 3648,229 3552,359 3456,424.7 3360,490 3264,490 3168,465.5 3072,441 2976,392 2880,375.7 2784,359 2688,376 2592,392 2496,408 2400,425 2304,424.7 2208,425 2112,408 2016,343 1920,278 1824,163 1728,179.7 1632,196 1536,343 1440,416.5 1344,490 1248,490 1152,490 1056,490 960,490 864,432.8 768,376 672,261 576,220.5 480,180 384,212 288,212.3 192,212 96,180 48,163.3 L 0,147 V 0 h 48 c 48,0 144,0 240,0 96,0 192,0 288,0 96,0 192,0 288,0 96,0 192,0 288,0 96,0 192,0 288,0 96,0 192,0 288,0 96,0 192,0 288,0 96,0 192,0 288,0 96,0 192,0 288,0 96,0 192,0 288,0 96,0 192,0 288,0 96,0 192,0 288,0 96,0 192,0 288,0 96,0 192,0 288,0 96,0 192,0 288,0 96,0 192,0 288,0 96,0 192,0 288,0 96,0 192,0 288,0 96,0 192,0 288,0 96,0 192,0 288,0 96,0 192,0 288,0 96,0 192,0 288,0 96,0 192,0 288,0 96,0 192,0 240,0 h 48 z"
+     fill="url(#sw-gradient-0)"
+     style="opacity:1;fill:url(#sw-gradient-0)" />
+</svg>
